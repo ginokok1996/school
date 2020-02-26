@@ -1,0 +1,63 @@
+body {
+  background: #9ee2ff;
+  font-family: "Raleway", sans-serif;
+}
+
+.textSection h2 {
+  color: #f83e3e;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.textSection p {
+  color: #efffed;
+  font-weight: 100;
+  font-size: 1.12rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.fa-paw {
+  color: #efffed;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #f83e3e;
+}
+
+#mainNavbar .navbar-brand {
+  color: #f83e3e;
+  font-size: 1.5rem;
+}
+
+#headingGroup span {
+  color: red;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: #7532a8;
+  transition: background 500ms;
+}
+
+@media (max-width: 1320px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.8rem;
+  }
+}

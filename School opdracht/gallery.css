@@ -1,0 +1,26 @@
+body {
+  background: #9ee2ff;
+  font-family: "Raleway", sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #f83e3e;
+}
+
+#mainNavbar .navbar-brand {
+  color: #f83e3e;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background: #7532a8;
+  transition: background 500ms;
+}
